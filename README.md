@@ -19,6 +19,7 @@
 <img src="https://github.com/user-attachments/assets/34551d4b-85c2-470e-bec8-5b783163382a" width="500">
 <img src="https://github.com/user-attachments/assets/905e1187-28c6-4fb9-a9de-f40d3a202a51" width="300"><br>
 **Note:** Clicking "Create a case" gives you access to the Playbook.<br>
+
 ![image](https://github.com/user-attachments/assets/ad44f92e-530a-43b4-b009-7583e0e3123b)
 ![image](https://github.com/user-attachments/assets/812d7a57-a775-4d28-bc00-abe414162d17)
 ![image](https://github.com/user-attachments/assets/6e2d51c4-65d2-42c2-9582-30eff7768e73)
