@@ -25,7 +25,7 @@
 <img src="https://github.com/user-attachments/assets/6e2d51c4-65d2-42c2-9582-30eff7768e73" width="300">
 
 #### The "Closed Alerts" tab is the place where you can find a history of all your closed alerts and review them.
-<img src="https://github.com/user-attachments/assets/89ae7a20-8e36-4a41-a614-7c4a92a6ceca" width="500">
+<img src="https://github.com/user-attachments/assets/89ae7a20-8e36-4a41-a614-7c4a92a6ceca" width="900">
 
 ### Log Management
 <img src="https://github.com/user-attachments/assets/d21deaa3-4f7d-4bb4-be94-2d3231c8998f" width="900">
