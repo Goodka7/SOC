@@ -18,10 +18,18 @@
 #### The "Investigation Channel" is a place where you can get details about cases that you've taken ownership, here you can "create a case" and "close an alert" that you have ownership of.
 <img src="https://github.com/user-attachments/assets/34551d4b-85c2-470e-bec8-5b783163382a" width="500">
 <img src="https://github.com/user-attachments/assets/905e1187-28c6-4fb9-a9de-f40d3a202a51" width="300"><br>
-**Note:** Clicking "Create a case" gives you access to the Playbook.<br>
+**Note:** Clicking "Create a case" gives you access to the Playbook:<br>
 
 <img src="https://github.com/user-attachments/assets/ad44f92e-530a-43b4-b009-7583e0e3123b" width="300">
 <img src="https://github.com/user-attachments/assets/812d7a57-a775-4d28-bc00-abe414162d17" width="300">
 <img src="https://github.com/user-attachments/assets/6e2d51c4-65d2-42c2-9582-30eff7768e73" width="300">
 
 #### The "Closed Alerts" tab is the place where you can find a history of all your closed alerts and review them.
+<img src="https://github.com/user-attachments/assets/89ae7a20-8e36-4a41-a614-7c4a92a6ceca" width="500">
+
+### Log Management
+<img src="https://github.com/user-attachments/assets/d21deaa3-4f7d-4bb4-be94-2d3231c8998f" width="500">
+
+#### As we can see in the image, here we can filter by different criteria such as IP addresses to find network logs.
+#### There is also a "pro" version that allows you to be more nuanced in filtering the network logs.
+
