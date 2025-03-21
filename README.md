@@ -13,7 +13,7 @@
 
 
 ### Monitoring
-As we can see above in the image, on the Monitoring tab, we have 3 sections: Main Channel, Investigation Channel and Closed Alerts
-The "Main Channel" will have all the alerts currently available to the SOC, anyone in the SOC can see these alerts, and take ownership of them.
-The "Investigation Channel" is a place where you can get details about cases that you've taken ownership, here you can "create a case" and "close an alert" that you have ownership of.
+#### As we can see above in the image, on the Monitoring tab, we have 3 sections: Main Channel, Investigation Channel and Closed Alerts
+#### The "Main Channel" will have all the alerts currently available to the SOC, anyone in the SOC can see these alerts, and take ownership of them.
+#### The "Investigation Channel" is a place where you can get details about cases that you've taken ownership, here you can "create a case" and "close an alert" that you have ownership of.
 <img src="https://github.com/user-attachments/assets/34551d4b-85c2-470e-bec8-5b783163382a" width="500"><br>
