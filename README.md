@@ -42,3 +42,8 @@
 <img src="https://github.com/user-attachments/assets/3d2c8d05-dc2f-4ba5-bdc9-a149ac66b327" width="500">
 
 #### We are also able to view details such as processes, network actions, terminal actions and broswer history to help during our analysis.
+
+## Email Security
+<img src="https://github.com/user-attachments/assets/86e5138b-338c-407a-8033-0fde0fc06f27" width="500">
+
+#### Here we see that we can filter email addresses to view emails that have been sent to users in the network.
