@@ -33,3 +33,7 @@
 #### As we can see in the image, here we can filter by different criteria such as IP addresses to find network logs.
 #### There is also a "pro" version that allows you to be more nuanced in filtering the network logs.
 
+### Case Management
+<img src="https://github.com/user-attachments/assets/77c1b642-6795-4d38-b0ce-f439a195fd82" width="900">
+
+#### As we can see in the image, here we can see the open and closed cases that we have/had ownership of.
