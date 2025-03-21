@@ -47,3 +47,13 @@
 <img src="https://github.com/user-attachments/assets/86e5138b-338c-407a-8033-0fde0fc06f27" width="500">
 
 #### Here we see that we can filter email addresses to view emails that have been sent to users in the network.
+
+## Threat Intelligence
+<img src="https://github.com/user-attachments/assets/140be73e-b5e5-4c0e-bfe2-6f0007a9322a" width="500">
+
+#### In this tab we can use several different methods to search for known threats from sources like VirusTotal.
+
+## Sandbox
+<img src="https://github.com/user-attachments/assets/92098bf3-ab61-4ec7-b2b6-8711e1968380" width="500">
+
+#### Here we can access VMs that are set up as Sandboxes with Malware Analysis tools to help us analyze malware both dynamically and statically.
