@@ -28,7 +28,7 @@
 <img src="https://github.com/user-attachments/assets/89ae7a20-8e36-4a41-a614-7c4a92a6ceca" width="500">
 
 ### Log Management
-<img src="https://github.com/user-attachments/assets/d21deaa3-4f7d-4bb4-be94-2d3231c8998f" width="500">
+<img src="https://github.com/user-attachments/assets/d21deaa3-4f7d-4bb4-be94-2d3231c8998f" width="900">
 
 #### As we can see in the image, here we can filter by different criteria such as IP addresses to find network logs.
 #### There is also a "pro" version that allows you to be more nuanced in filtering the network logs.
