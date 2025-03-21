@@ -12,7 +12,7 @@
 - Sandbox - This is where we can access a Windows and a Linux vm set up with tools to analyze malware.
 
 
-### Monitoring
+## Monitoring
 #### As we can see above in the image, on the Monitoring tab, we have 3 sections: Main Channel, Investigation Channel and Closed Alerts
 #### The "Main Channel" will have all the alerts currently available to the SOC, anyone in the SOC can see these alerts, and take ownership of them.
 #### The "Investigation Channel" is a place where you can get details about cases that you've taken ownership, here you can "create a case" and "close an alert" that you have ownership of.
@@ -27,13 +27,13 @@
 #### The "Closed Alerts" tab is the place where you can find a history of all your closed alerts and review them.
 <img src="https://github.com/user-attachments/assets/89ae7a20-8e36-4a41-a614-7c4a92a6ceca" width="900">
 
-### Log Management
+## Log Management
 <img src="https://github.com/user-attachments/assets/d21deaa3-4f7d-4bb4-be94-2d3231c8998f" width="900">
 
 #### As we can see in the image, here we can filter by different criteria such as IP addresses to find network logs.
 #### There is also a "pro" version that allows you to be more nuanced in filtering the network logs.
 
-### Case Management
+## Case Management
 <img src="https://github.com/user-attachments/assets/77c1b642-6795-4d38-b0ce-f439a195fd82" width="900">
 
 #### As we can see in the image, here we can see the open and closed cases that we have/had ownership of.
