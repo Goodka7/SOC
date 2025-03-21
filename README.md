@@ -1,6 +1,6 @@
 # Security Operations Center
 
-#### This is a typical SOC set up, that you might find in an enterprise set up.
+#### This is a typical SOC set up, that you might find in an enterprise.
 <img src="https://github.com/user-attachments/assets/f9c26a4d-13e7-4945-a526-ee048414803b" width="900"><br>
 #### On the left we have our resources that we will use to analyze alerts.
 - Monitoring - This is the screen shown in the image above.
