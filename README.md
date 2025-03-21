@@ -31,4 +31,14 @@
 #### As we can see in the image, here we can see the open and closed cases that we have/had ownership of.
 
 ## EndPoint Security
-![image](https://github.com/user-attachments/assets/9ad16f51-7937-4d13-833f-de3bc28532d0)
+<img src="https://github.com/user-attachments/assets/9ad16f51-7937-4d13-833f-de3bc28532d0" width="900">
+
+#### As we can see in the image above, the EndPoint Security tab is a place where we can view EndPoints on the network and get details about them:
+
+<img src="https://github.com/user-attachments/assets/e281e4be-3c8f-4bf1-8d74-de67638f5700" width="500">
+
+#### Here we see the details of an EndPoint called Cooper, you can see here we can Contain/Isolate the EndPoint from the network from here if needed. You can also see that some of these EndPoints can give us remote access.
+
+<img src="https://github.com/user-attachments/assets/3d2c8d05-dc2f-4ba5-bdc9-a149ac66b327" width="500">
+
+#### We are also able to view details such as processes, network actions, terminal actions and broswer history to help during our analysis.
