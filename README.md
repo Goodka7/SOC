@@ -19,4 +19,5 @@
 <img src="https://github.com/user-attachments/assets/34551d4b-85c2-470e-bec8-5b783163382a" width="500">
 <img src="https://github.com/user-attachments/assets/905e1187-28c6-4fb9-a9de-f40d3a202a51" width="300"><br>
 **Note:** Clicking "Create a case" gives you access to the Playbook.<br>
+
 #### The "Closed Alerts" tab is the place where you can find a history of all your closed alerts and review them.
