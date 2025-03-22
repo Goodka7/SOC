@@ -135,7 +135,7 @@ The playbook next gives us a chance to add key artifacts that we used in our ana
 
 Now the playbook asks if I need a tier2 escalation. Since we did find indicators of successful attack, we should definitely escalate.
 
-![image](https://github.com/user-attachments/assets/05b04840-c589-47d2-bd93-8928700b89c7)
+![image](https://github.com/user-attachments/assets/3e7c76fe-ebb6-49f4-9e7c-8d69a70919bd)
 
 I make a brief report for the playbook giving some key data points.
 
@@ -144,6 +144,6 @@ I make a brief report for the playbook giving some key data points.
 
 Finally I finish the playbook, but we're not done yet, we need to close the case.
 
-![image](https://github.com/user-attachments/assets/ba4c5e89-04b2-44ff-b525-093885abf678)
+![image](https://github.com/user-attachments/assets/076cd78a-0ee7-43e7-a32e-130823aeb47a)
+![image](https://github.com/user-attachments/assets/ea8dd866-aec2-4395-bda4-3c4e0ceb4881)
 
-As you can see in the image above, I selected "true positive" because even though the attack did not succeed, the alert did properly identify the attempted exploit.
