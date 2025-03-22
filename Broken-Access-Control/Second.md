@@ -103,8 +103,6 @@ Since I already collected this data earlier, I move on to the next step.
 
 Based on the data collected, I assess whether the traffic from the external IP is malicious. Given that the payload reflects variables that were shown in the OSINT and that the IP itself had been flagged, I determined that the traffic was malicious. 
 
-HTTP response code "200" in the logs, indicating successful execution of the attack, I determine that the attack was successful.
-
 ## Attack Type
 <img src="https://github.com/user-attachments/assets/4e94d1de-5da2-40f2-9276-00fef4701116" width="500">
 
@@ -113,12 +111,26 @@ The playbook asks me to identify the attack type: In this case I chose "Other".
 ## Planned or Not?
 ![image](https://github.com/user-attachments/assets/f44a4503-3fd6-4c14-911d-a09b0d4bdaf0)
 
-The playbook asks us to check E-mail logs so that we can see if this was a planned test or not, after searching through the E-mail logs, I could not find any indication that it was planned.
+The playbook asks us to check E-mail logs so that I can see if this was a planned test or not, after searching through the E-mail logs, I could not find any indication that it was planned.
 
 <img src="https://github.com/user-attachments/assets/4ab05c5a-4316-48dd-aca1-455215279c11" width="500">
 
+## Direcction of Traffic
+<img src="https://github.com/user-attachments/assets/0a64e346-89dc-4fba-99a7-385e259250f3" width="500">
+
+Following along with the playbook, it askes me to identify the direction that the network traffic was going. Based on the data: Internet > Company Network.
+
+## Was the Attack Successful?
+<img src="https://github.com/user-attachments/assets/943951c7-14c0-4e17-95d9-9ddc1f1c0869" width="500">
+
+The playbook wants me to make sure I verify if the attack was actually successful. Based on the Network activity data, the HTTP response code "200" in the logs indicates a successful execution of the attack, so I determine that the attack was indeed successful.
+
 ## Containment and Mitigation
-Since the attack was deemed successful, I proceed to contain the compromised endpoint by isolating the Confluence server (v8.0.3). This step is necessary to prevent any further exploitation or lateral movement within the network.
+
+<img src="https://github.com/user-attachments/assets/2bb67ae5-44fc-4bd8-b61c-e4bc3679f97e" width="500">
+<img src="https://github.com/user-attachments/assets/c94221b4-017d-4a52-bf1e-e1fc732aedf1" width="500">
+
+I proceed to contain the compromised endpoint by isolating the Confluence server (v8.0.3). This step is necessary to prevent any further exploitation or lateral movement within the network.
 
 ![image](https://github.com/user-attachments/assets/1b6f0bb9-3add-4cb7-86b4-b99929e14ded)
 
