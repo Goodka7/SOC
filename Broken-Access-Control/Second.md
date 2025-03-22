@@ -93,8 +93,22 @@ LetsDefend
 #### Last user logon time: 
 Nov, 08, 2023, 12:00 PM
 
+## Examining HTTP Traffic
+<img src="https://github.com/user-attachments/assets/7c6e0d1b-d75e-48ba-a597-f9a7865e16d9" width="500">
+
+Since I already collected this data earlier, I move on to the next step.
+
 ## Determining Malicious Activity
-Based on the data collected, I assess whether the traffic from the external IP is malicious. Given the HTTP response code "200" in the logs, indicating successful execution of the attack, I determine that the attack was successful.
+<img src="https://github.com/user-attachments/assets/d9c174f4-625e-4272-8a5d-96325a7d9d61" width="500">
+
+Based on the data collected, I assess whether the traffic from the external IP is malicious. Given that the payload reflects variables that were shown in the OSINT and that the IP itself had been flagged, I determined that the traffic was malicious. 
+
+HTTP response code "200" in the logs, indicating successful execution of the attack, I determine that the attack was successful.
+
+## Attack Type
+<img src="https://github.com/user-attachments/assets/4e94d1de-5da2-40f2-9276-00fef4701116" width="500">
+
+The playbook asks us to identify the attack type: In this case I chose "Other".
 
 ## Containment and Mitigation
 Since the attack was deemed successful, I proceed to contain the compromised endpoint by isolating the Confluence server (v8.0.3). This step is necessary to prevent any further exploitation or lateral movement within the network.
