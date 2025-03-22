@@ -147,3 +147,60 @@ Finally I finish the playbook, but we're not done yet, we need to close the case
 ![image](https://github.com/user-attachments/assets/076cd78a-0ee7-43e7-a32e-130823aeb47a)
 ![image](https://github.com/user-attachments/assets/ea8dd866-aec2-4395-bda4-3c4e0ceb4881)
 
+# Broken Access Control
+
+In this project, I will walk through the analysis of a SOC Alert, outlining typical steps I take to analyze and close alerts. I will not be re-visiting descriptions from the SOC overview.
+
+## Initial Investigation
+The first thing I do is open an alert that I have taken ownership of in the Investigation Channel.
+
+![image](https://github.com/user-attachments/assets/ca39d5ad-d183-4d6d-8f45-fd8a32dda9fb)
+
+This allows me to review key pieces of information that I will use to conduct a thorough analysis. At this point, I always copy this information down and paste it into a notepad. This step is taken because I will be switching screens/tabs often and need to have all my gathered information available in one place so I don't need to switch back and forth between several screens/tabs.
+
+This is also done because the playbook in this particular setup cannot be closed out of (or you'll have to start the playbook from scratch).
+
+## Creating a Case
+Now that I have all the basic information copied down, I will create a case.
+
+![image](https://github.com/user-attachments/assets/bd2f790a-99ca-47cc-bb35-3f197d99d6f9)
+
+![image](https://github.com/user-attachments/assets/3a96e674-bee7-4fa3-8c4d-1a9559bf5ac8)
+
+This will take me to the **Incident Details** page, which provides some of the details from the first screen, but not as many. Here we can start the playbook.
+
+![image](https://github.com/user-attachments/assets/2d0ab8d8-e81b-41dc-aa3b-516cebb80278)
+
+I will open a new tab/screen at this point so that I can keep the playbook active.
+
+![image](https://github.com/user-attachments/assets/06fa99e0-ce5d-402c-8f75-aa291ab543d2)
+
+## Analyzing the Rule
+Following the information in the playbook, we can start looking for artifacts. The playbook first suggests we look at the **rule name**, referring to why the alert was triggered:
+
+**SOC235 - Atlassian Confluence Broken Access Control 0-Day CVE-2023-22515**
+
+From this, I decide to look for some information regarding the CVE mentioned. Atlassian's own webpage has a write-up with a lot of good information on this CVE-2023-22515, including some threat hunting tips:
+
+![image](https://github.com/user-attachments/assets/5a3ba307-db00-4604-bdfa-ee2ccf68e2f1)
+
+## Log Analysis
+The playbook also suggests looking at traffic between the two devices (Destination IP Address: 172.16.17.234, Source IP Address: 43.130.1.222). I go to the **Log Management** page to look for that information.
+
+![image](https://github.com/user-attachments/assets/14b5feac-5fd3-4fa3-8c4d-1a9559bf5ac8)
+
+I focus on the Source IP Address, as it seems to be from outside the network, and can see that it has been communicating with our Destination IP. After putting the relevant information in my notepad, I move on with the playbook.
+
+![image](https://github.com/user-attachments/assets/b90ed80a-f8cf-486e-bb24-603046510ba5)
+
+![image](https://github.com/user-attachments/assets/400305ed-0ec3-40f3-a71f-ee98d27cd4df)
+
+![image](https://github.com/user-attachments/assets/d70edf4a-1864-4795-968f-b49dff8025da)
+
+![image](https://github.com/user-attachments/assets/7e230dae-ab01-7fc253e5ffe7)
+
+## Endpoint Security Check
+The next step of the playbook suggests some sources to collect data from. I navigate to the **Endpoint Security** tab and enter `43.130.1.222` to confirm if the device is in the network or not. No devices show up with that IP. I then enter the other IP, which seems to be an in-network device, and get a hit:
+
+![image](https://github.com/user-attachments/assets/7ccc129a-ac24-42d4-8da5-2e1d1e64a72a)
+
