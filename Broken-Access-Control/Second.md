@@ -24,7 +24,7 @@ This will take me to the **Incident Details** page, which provides some of the d
 
 I will open a new tab/screen at this point so that I can keep the playbook active.
 
-![image](https://github.com/user-attachments/assets/06fa99e0-ce5d-402c-8f75-aa291ab543d2)
+<img src="https://github.com/user-attachments/assets/06fa99e0-ce5d-402c-8f75-aa291ab543d2" width="500">
 
 ## Analyzing the Rule
 Following the information in the playbook, we can start looking for artifacts. The playbook first suggests we look at the **rule name**, referring to why the alert was triggered:
