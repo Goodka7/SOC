@@ -108,7 +108,14 @@ HTTP response code "200" in the logs, indicating successful execution of the att
 ## Attack Type
 <img src="https://github.com/user-attachments/assets/4e94d1de-5da2-40f2-9276-00fef4701116" width="500">
 
-The playbook asks us to identify the attack type: In this case I chose "Other".
+The playbook asks me to identify the attack type: In this case I chose "Other".
+
+## Planned or Not?
+![image](https://github.com/user-attachments/assets/f44a4503-3fd6-4c14-911d-a09b0d4bdaf0)
+
+The playbook asks us to check E-mail logs so that we can see if this was a planned test or not, after searching through the E-mail logs, I could not find any indication that it was planned.
+
+<img src="https://github.com/user-attachments/assets/4ab05c5a-4316-48dd-aca1-455215279c11" width="500">
 
 ## Containment and Mitigation
 Since the attack was deemed successful, I proceed to contain the compromised endpoint by isolating the Confluence server (v8.0.3). This step is necessary to prevent any further exploitation or lateral movement within the network.
