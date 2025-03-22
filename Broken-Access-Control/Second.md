@@ -38,7 +38,8 @@ From this, I decide to look for some information regarding the CVE mentioned. At
 ## Log Analysis
 The playbook also suggests looking at traffic between the two devices (Destination IP Address: 172.16.17.234, Source IP Address: 43.130.1.222). I go to the **Log Management** page to look for that information.
 
-![image](https://github.com/user-attachments/assets/14b5feac-5fd3-4fa3-8c4d-1a9559bf5ac8)
+![image](https://github.com/user-attachments/assets/d2490ac4-2a17-41dd-b60f-3bc4b604129d)
+
 
 I focus on the Source IP Address, as it seems to be from outside the network, and can see that it has been communicating with our Destination IP. After putting the relevant information in my notepad, I move on with the playbook.
 
