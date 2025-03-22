@@ -71,7 +71,8 @@ Next, I perform some OSINT on the external IP address (43.130.1.222) to identify
 Now we have enough information in our notepad to answer the questions in the playbook;
 
 #### Ownership of the IP addresses and devices: 
-172.16.17.234 - A device inside our enterprise network. 43.130.1.222 - Tencent a company based in CHINA.
+172.16.17.234 - A device inside our enterprise network.<br> 
+43.130.1.222 - Tencent a company based in CHINA.
 
 #### If the traffic is coming from outside (Internet): 
 Yes, 43.130.1.222 is outside the network, communicating over port 80(HTTP).
