@@ -14,7 +14,7 @@
 
 <img src="https://github.com/user-attachments/assets/ad44f92e-530a-43b4-b009-7583e0e3123b" width="300">
 <img src="https://github.com/user-attachments/assets/812d7a57-a775-4d28-bc00-abe414162d17" width="300">
-<img src="https://github.com/user-attachments/assets/6e2d51c4-65d2-42c2-9582-30eff7768e73" width="300">
+<img src="https://github.com/user-attachments/assets/d2812e68-8056-4cec-a5ce-5e195f868b0b" width="300">
 
 #### The "Closed Alerts" tab is the place where you can find a history of all your closed alerts and review them.
 <img src="https://github.com/user-attachments/assets/89ae7a20-8e36-4a41-a614-7c4a92a6ceca" width="900">
