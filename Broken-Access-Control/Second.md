@@ -146,6 +146,7 @@ Given the confirmed successful exploitation, I initiate a Tier 2 escalation as p
 I complete the playbook and proceed to close the case. All investigation details and remediation steps are thoroughly documented to ensure accurate reporting and compliance with SOC protocols.
 
 <img src="https://github.com/user-attachments/assets/f302b86b-689b-4274-8b48-9e940cb08d98" width="500">
+
 ![image](https://github.com/user-attachments/assets/f0b9b8b2-a58b-4b93-be17-00337cd42575)
 
 ## Summary
