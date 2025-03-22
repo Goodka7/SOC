@@ -4,7 +4,6 @@ In this project, I will walkthrough the analysis of a SOC Alert, outlining typic
 I will not be re-visiting descriptions from the SOC overview.
 
 The first thing I do is open an alert that I have taken ownership of in the Investigation Channel.
-![image](https://github.com/user-attachments/assets/ca39d5ad-d183-4d6d-8f45-fd8a32dda9fb)
 
 This allows me to review key pieces of information that I will use to conduct a thorough analysis.
 At this point, I always copy this information down and paste it in a notepad. This step is taken because I will be switching screens/tabs often and need to have all my gathered information available in one place so I dont need to switch back and forth between several screens/tabs.
