@@ -115,7 +115,7 @@ The playbook asks us to check E-mail logs so that I can see if this was a planne
 
 <img src="https://github.com/user-attachments/assets/4ab05c5a-4316-48dd-aca1-455215279c11" width="500">
 
-## Direcction of Traffic
+## Direction of Traffic
 <img src="https://github.com/user-attachments/assets/0a64e346-89dc-4fba-99a7-385e259250f3" width="500">
 
 Following along with the playbook, it askes me to identify the direction that the network traffic was going. Based on the data: Internet > Company Network.
@@ -130,7 +130,7 @@ The playbook wants me to make sure I verify if the attack was actually successfu
 <img src="https://github.com/user-attachments/assets/2bb67ae5-44fc-4bd8-b61c-e4bc3679f97e" width="500">
 <img src="https://github.com/user-attachments/assets/c94221b4-017d-4a52-bf1e-e1fc732aedf1" width="500">
 
-I proceed to contain the compromised endpoint by isolating the Confluence server (v8.0.3). This step is necessary to prevent any further exploitation or lateral movement within the network.
+I proceed to contain the compromised endpoint by isolating the Confluence Data Center (v8.0.3). This step is necessary to prevent any further exploitation or lateral movement within the network.
 
 ![image](https://github.com/user-attachments/assets/1b6f0bb9-3add-4cb7-86b4-b99929e14ded)
 
