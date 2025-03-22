@@ -1,16 +1,3 @@
-
-![image](https://github.com/user-attachments/assets/3ce3f09e-ce7d-4144-b638-8f806157be05)
-
-The playbook now wants us to indentify the attack type, this will depend on your enterprises definitions but for my analysis I will choose "Other".
-
-![image](https://github.com/user-attachments/assets/f68e6290-3d53-49d9-b36d-d9a93564127b)
-
-The playbook now suggest we look at email logs to see if it was a planned test of the system, since the EndPoint did not have a email address associated with it, we can use a few key words to query the email logs, at the very least we can narrow it down by date. We can see that the activities took place Nov,8 2023 and Nov,9 2023 so we will look for emails a few days before and after this.
-
-![image](https://github.com/user-attachments/assets/bfa1adb4-ecb5-4da3-b4f5-17a3f64fbc61)
-
-As we can see from the image above, there are no emails for this week, meaning it's very unlikely that there was a test.
-
 ![image](https://github.com/user-attachments/assets/914c2432-ba11-44c4-b1b8-12e69c50a3a3)
 
 Now the playbook is asking for us to select which direction the traffic was coming from (likely so they can refine firewall rules if needed), we can see from the network logs earlier that the attack was coming from the internet over port 80. Internet > Company is the correct choice.
