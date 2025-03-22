@@ -60,7 +60,7 @@ The next step of the playbook suggests some sources to collect data from. I navi
 
 ![image](https://github.com/user-attachments/assets/7ccc129a-ac24-42d4-8da5-2e1d1e64a72a)
 
-## OSINT and External Analysis
+## OSINT Analysis
 
 Next, I perform some OSINT on the external IP address (43.130.1.222) to identify ownership and reputation. Using WhoisMind and VirusTotal, I gather information indicating that the IP is associated with Tencent, a company based in China, and that it is part of a cloud hosting pool. Although VirusTotal shows a low detection rate, this is likely due to it being a non-static, cloud-hosted IP address.
 
