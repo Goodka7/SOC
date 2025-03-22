@@ -49,9 +49,12 @@ I focus on the Source IP Address, as it seems to be from outside the network, an
 
 ![image](https://github.com/user-attachments/assets/d70edf4a-1864-4795-968f-b49dff8025da)
 
-![image](https://github.com/user-attachments/assets/7e230dae-ab01-7fc253e5ffe7)
+![image](https://github.com/user-attachments/assets/7e230dae-ab70-4bec-ad01-7fc253e5ffe7)
 
 ## Endpoint Security Check
+
+<img src="https://github.com/user-attachments/assets/82b114eb-d1ae-4e6b-bafd-cd3ad182c222" width="500">
+
 The next step of the playbook suggests some sources to collect data from. I navigate to the **Endpoint Security** tab and enter `43.130.1.222` to confirm if the device is in the network or not. No devices show up with that IP. I then enter the other IP, which seems to be an in-network device, and get a hit:
 
 ![image](https://github.com/user-attachments/assets/7ccc129a-ac24-42d4-8da5-2e1d1e64a72a)
