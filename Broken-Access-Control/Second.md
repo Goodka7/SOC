@@ -109,7 +109,7 @@ Based on the data collected, I assess whether the traffic from the external IP i
 The playbook asks me to identify the attack type: In this case I chose "Other".
 
 ## Planned or Not?
-![image](https://github.com/user-attachments/assets/f44a4503-3fd6-4c14-911d-a09b0d4bdaf0)
+<img src="https://github.com/user-attachments/assets/f44a4503-3fd6-4c14-911d-a09b0d4bdaf0" width="500">
 
 The playbook asks us to check E-mail logs so that I can see if this was a planned test or not, after searching through the E-mail logs, I could not find any indication that it was planned.
 
