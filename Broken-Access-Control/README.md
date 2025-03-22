@@ -1,36 +1,3 @@
-This will take me to the Incident Details page, which provides some of the details from the first screen, but not as many, here we can start the playbook.
-![image](https://github.com/user-attachments/assets/2d0ab8d8-e81b-41dc-aa3b-516cebb80278)
-
-I will open a new tab/screen at this point so that I can keep the playbook active.
-
-![image](https://github.com/user-attachments/assets/06fa99e0-ce5d-402c-8f75-aa291ab543d2)
-
-Following the information in the playbook, we can start looking for artifacts.
-This playbook first suggest we look at the "rule" name, this is referring to why the alert was triggered:
-
-SOC235 - Atlassian Confluence Broken Access Control 0-Day CVE-2023-22515
-
-From this, I decide to go look for some information regarding the CVE mentioned.
-Atlassian's own webpage has a write-up with a lot of good information on this CVE-2023-22515 including some threat hunting tips:
-
-![image](https://github.com/user-attachments/assets/5a3ba307-db00-4604-bdfa-ee2ccf68e2f1)
-
-The playbook also suggests looking at traffic between the two devices (Destination IP Address : 172.16.17.234, Source IP Address : 43.130.1.222).
-I go to the Log Management page to look for that information.
-
-![image](https://github.com/user-attachments/assets/14b5feac-5fd3-4d15-8d51-25081a4c30a6)
-
-I focus on the Source IP Address, as it's (seemingly) one from outside the network and can see that it has been communicating with our Dest. IP.
-After putting the relevant information in my notepad (screenshots below), I move on with the playbook.
-
-![image](https://github.com/user-attachments/assets/b90ed80a-f8cf-486e-bb24-603046510ba5)
-![image](https://github.com/user-attachments/assets/400305ed-0ec3-40f3-a71f-ee98d27cd4df)
-![image](https://github.com/user-attachments/assets/d70edf4a-1864-4795-968f-b49dff8025da)
-![image](https://github.com/user-attachments/assets/7e230dae-ab70-4bec-ad01-7fc253e5ffe7)
-
-![image](https://github.com/user-attachments/assets/82b114eb-d1ae-4e6b-bafd-cd3ad182c222)
-The next step of the playbook suggests some sources to collect data from
-
 I navigate over to the EndPoint Security tab and enter 43.130.1.222 to confirm if the device is in the network or not. No devices show up with that IP.
 I then enter the other IP which seems to be an in network device and get a hit:
 
