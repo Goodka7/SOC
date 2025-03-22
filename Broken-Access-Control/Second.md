@@ -33,6 +33,7 @@ Following the information in the playbook, we can start looking for artifacts. T
 
 From this, I decide to look for some information regarding the CVE mentioned. Atlassian's own webpage has a write-up with a lot of good information on this CVE-2023-22515, including some threat hunting tips:
 
+![image](https://github.com/user-attachments/assets/e0b51e20-8a0c-4611-891e-06f20c87e728)
 ![image](https://github.com/user-attachments/assets/5a3ba307-db00-4604-bdfa-ee2ccf68e2f1)
 
 ## Log Analysis
@@ -66,6 +67,17 @@ Next, I perform some OSINT on the external IP address (43.130.1.222) to identify
 ![image](https://github.com/user-attachments/assets/50dae793-edae-42b0-9a50-8ad1aac190d0)
 ![image](https://github.com/user-attachments/assets/219a6d74-095c-428b-979c-56aa77d119dc)
 ![image](https://github.com/user-attachments/assets/b131be1f-ce08-4da7-a175-42e11ad71d00)
+
+Now we have enough information in our notepad to answer the questions in the playbook;
+
+Ownership of the IP addresses and devices: 172.16.17.234 - A device inside our enterprise network. 43.130.1.222 - Tencent a company based in CHINA.
+If the traffic is coming from outside (Internet): Yes, 43.130.1.222 is outside the network, communicating over port 80(HTTP).
+Ownership of IP address: 43.130.1.122 is a pool address, the indications from OSINT show that it's possibly cloud-hosted.
+Reputation of IP Address: 43.130.1.122 showed low hits on VirusTotal, but this is likely due to the IP address being non-static and web/cloud hosted.
+
+If the traffic is coming from company network: Hostname of the device: Confluence Data Center v8.0.3
+Who owns the device (username): LetsDefend
+Last user logon time: Nov, 08, 2023, 12:00 PM
 
 ## Determining Malicious Activity
 Based on the data collected, I assess whether the traffic from the external IP is malicious. Given the HTTP response code "200" in the logs, indicating successful execution of the attack, I determine that the attack was successful.
