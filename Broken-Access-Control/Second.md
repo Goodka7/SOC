@@ -16,7 +16,7 @@ Now that I have all the basic information copied down, I will create a case.
 
 <img src="https://github.com/user-attachments/assets/bd2f790a-99ca-47cc-bb35-3f197d99d6f9" width="300">
 
-![image](https://github.com/user-attachments/assets/3a96e674-bee7-4fa3-8c4d-1a9559bf5ac8)
+<img src="https://github.com/user-attachments/assets/3a96e674-bee7-4fa3-8c4d-1a9559bf5ac8" width="500">
 
 This will take me to the **Incident Details** page, which provides some of the details from the first screen, but not as many. Here we can start the playbook.
 
