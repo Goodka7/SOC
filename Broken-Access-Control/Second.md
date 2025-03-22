@@ -145,8 +145,8 @@ Given the confirmed successful exploitation, I initiate a Tier 2 escalation as p
 
 I complete the playbook and proceed to close the case. All investigation details and remediation steps are thoroughly documented to ensure accurate reporting and compliance with SOC protocols.
 
-![image](https://github.com/user-attachments/assets/5880d4a2-0741-4c59-b051-95359aa7e7d0)
-![image](https://github.com/user-attachments/assets/f630c2e1-4678-4f47-9a0e-b2cdcc72577e)
+<img src="https://github.com/user-attachments/assets/f302b86b-689b-4274-8b48-9e940cb08d98" width="500">
+![image](https://github.com/user-attachments/assets/f0b9b8b2-a58b-4b93-be17-00337cd42575)
 
 ## Summary
 The incident involved a successful exploitation of CVE-2023-22515 via a broken access control vulnerability. The attack originated from an external IP (43.130.1.222) and successfully created an unauthorized administrator account. Immediate containment and escalation steps were performed as per the SOC playbook.
