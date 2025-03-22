@@ -19,5 +19,4 @@ This will take me to the Incident Details page, which provides some of the detai
 
 I will open a new tab/screen at this point so that I can keep the playbook active.
 
-![image](https://github.com/user-attachments/assets/e2fbac92-06f9-43f8-8861-abfb1e23608f)
 ![image](https://github.com/user-attachments/assets/06fa99e0-ce5d-402c-8f75-aa291ab543d2)
