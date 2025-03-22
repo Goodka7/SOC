@@ -120,7 +120,7 @@ Now the playbook is asking for us to select which direction the traffic was comi
 Next the playbook is asking to verify if the attack was actually successful, this is something that we can possibly verify on the EndPoint.
 ![image](https://github.com/user-attachments/assets/1fad3e42-f7be-400e-88e5-8f3efe196801)
 
-After looking over the EndPoint, there was no suspicious processes running, and the Terminal (Command) history and browser history were blank. However, we can see from the earlier network logs (above) that the HTTP Requests from the Malicious IP were given a response code of "200" meaning that the server accepted the commands. This means the attack was in face successful.
+After looking over the EndPoint, there was no suspicious processes running, and the Terminal (Command) history and browser history were blank. However, we can see from the earlier network logs (above) that the HTTP Requests from the Malicious IP were given a response code of "200" meaning that the server accepted the commands. This means the attack was in fact successful.
 
 ![image](https://github.com/user-attachments/assets/068776cc-7259-4a62-8e21-cb0fd7bc824d)
 
@@ -128,9 +128,12 @@ I then navigate back to the compromised EndPoint: Confluence Data Center v8.0.3 
 ![image](https://github.com/user-attachments/assets/1b6f0bb9-3add-4cb7-86b4-b99929e14ded)
 
 
+![image](https://github.com/user-attachments/assets/7e8e212e-eecc-4f70-b573-f767f40c871c)
+The playbook next gives us a chance to add key artifacts that we used in our analysis.
+
 ![image](https://github.com/user-attachments/assets/d7808960-70bc-48c8-b125-814ed6c1b208)
 
-Now the playbook asks if we need a tier2 escalation. Since we did not find any indicators of successful attack, there would be no point to escalate.
+Now the playbook asks if I need a tier2 escalation. Since we did find indicators of successful attack, we should definitely escalate.
 
 ![image](https://github.com/user-attachments/assets/05b04840-c589-47d2-bd93-8928700b89c7)
 
