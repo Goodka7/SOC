@@ -113,7 +113,7 @@ As we can see from the image above, there are no emails for this week, meaning i
 
 ![image](https://github.com/user-attachments/assets/914c2432-ba11-44c4-b1b8-12e69c50a3a3)
 
-Now the playbook is asking for us to select which direction the traffic was coming from (likely so they can refine firewall rules if needed), we can see from the network logs earlier that the attack was coming from the internet over port 80.
+Now the playbook is asking for us to select which direction the traffic was coming from (likely so they can refine firewall rules if needed), we can see from the network logs earlier that the attack was coming from the internet over port 80. Internet > Company is the correct choice.
 
 ![image](https://github.com/user-attachments/assets/836b3478-d50e-4968-9a42-e1888d782abc)
 
