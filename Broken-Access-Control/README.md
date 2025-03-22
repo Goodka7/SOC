@@ -1,7 +1,3 @@
-Now that I have all the basic information copied down, I will create a case.
-![image](https://github.com/user-attachments/assets/bd2f790a-99ca-47cc-bb35-3f197d99d6f9)
-![image](https://github.com/user-attachments/assets/3a96e674-bee7-4fa3-8c4d-1a9559bf5ac8)
-
 This will take me to the Incident Details page, which provides some of the details from the first screen, but not as many, here we can start the playbook.
 ![image](https://github.com/user-attachments/assets/2d0ab8d8-e81b-41dc-aa3b-516cebb80278)
 
