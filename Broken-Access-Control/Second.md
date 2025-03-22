@@ -132,8 +132,6 @@ The playbook wants me to make sure I verify if the attack was actually successfu
 
 I proceed to contain the compromised endpoint by isolating the Confluence Data Center (v8.0.3). This step is necessary to prevent any further exploitation or lateral movement within the network.
 
-![image](https://github.com/user-attachments/assets/1b6f0bb9-3add-4cb7-86b4-b99929e14ded)
-
 ## Reporting and Escalation
 Given the confirmed successful exploitation, I initiate a Tier 2 escalation as per the playbook guidelines. I document key artifacts and details gathered during the investigation and submit them as part of the escalation report.
 
