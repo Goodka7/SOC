@@ -1,12 +1,3 @@
-![image](https://github.com/user-attachments/assets/0c8c3a62-273a-4aa7-84e4-10b52100efaf)
-
-Since I already took the initiative, I already recorded the relevant information in my notepad, and we will move to the next step of the playbook.
-
-![image](https://github.com/user-attachments/assets/536212c0-52d9-4f0c-9760-a23531fc1053)
-
-The playbook now wants us to use the information we've gathered so far to make a decision about the traffic, was it malicious or not?
-
-My personal opinion, based on the data I have obtained, it is in fact malicious.
 
 ![image](https://github.com/user-attachments/assets/3ce3f09e-ce7d-4144-b638-8f806157be05)
 
