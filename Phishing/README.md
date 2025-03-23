@@ -50,7 +50,6 @@ IP Address	ASN	Provider	Country	Detection	Reason for Suspicion
 91.189.91.48	AS41231	Canonical Group Limited	US	1/94	Flagged as Malicious by Criminal IP (Ubuntu-related).
 52.15.107.13	AS16509	AMAZON-02	US	1/94	Flagged as Malicious by Criminal IP.
 54.247.62.1	AS16509	AMAZON-02	IE	1/94	Flagged as Malicious by Criminal IP.
-169.254.169.254	Private	Link-Local	-	0/94	Frequently used by AWS instances; abnormal on Windows.
 
 ![image](https://github.com/user-attachments/assets/160af96f-1b37-4f44-9fb5-86c2b0f6e531)
 
@@ -58,4 +57,25 @@ Based on the E-mail and the activity on the EndPoint, I concluded that "Phishing
 
 ![image](https://github.com/user-attachments/assets/8711289f-20ac-478a-bde9-f1eaed8538bc)
 
+I already know it's external based on the data.
+
 ![image](https://github.com/user-attachments/assets/8a9212ad-d8ed-4b97-be4f-ad6b7e4d5e3f)
+
+I have already performed external analysis on the IPs and found data regarding them.
+
+![image](https://github.com/user-attachments/assets/a0681412-6b36-43e1-bde4-10c5d39f874a)
+
+No local (in network) IPs were listed in the Network Logs so I am assuming this is an isolated incident.
+Note: I did find 2 more Endpoints with similiar traffic that is going to warrant a broader investigation, the other EndPoints show traffic as early as Nov 2023.
+
+![image](https://github.com/user-attachments/assets/74a7c004-856c-4253-a74d-dbe02620f7e0)
+![image](https://github.com/user-attachments/assets/fac11219-7e7b-43ee-bd69-6a0d407ccb60)
+
+I finish the playbook with some quick notes.
+
+![image](https://github.com/user-attachments/assets/991b6db7-2732-430c-ab08-7577cfc18a10)
+
+And then I close the case out.
+![image](https://github.com/user-attachments/assets/c09a4837-9efc-4a91-9cdc-2e234d5b1c31)
+
+
