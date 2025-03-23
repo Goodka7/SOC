@@ -27,8 +27,35 @@ This log does not really give us any new information but does confirm the inform
 
 ![image](https://github.com/user-attachments/assets/add32fa7-ead6-4f7f-b306-e2d96da3f531)
 
-The playbook directs me to make sure I look at these sources for suspicious data, one thing that sticks out is the domain name of the senders email: microsecmfa.com
+The playbook directs me to make sure I look at these sources for suspicious data:
 
+The email uses urgency and fear tactics, stating that failure to update MFA will result in loss of email privileges.
+
+The sender's domain microsecmfa.com appears suspicious and does not match official Microsoft domains.
+
+The email encourages scanning a QR code, which could lead to a malicious site or credential-stealing process.
+
+SMTP Address: 158.69.201.47 has been flagged as malicious by VirusTotal(https://www.virustotal.com/gui/ip-address/158.69.201.47)
+    Behaviors: HTTP Bruteforce / HTTP Crawl / HTTP DoS + 3 more. Full details on CrowdSec CTI
+
+![image](https://github.com/user-attachments/assets/69c8f71a-dc24-4644-829a-9495fe0f531c)
+![image](https://github.com/user-attachments/assets/1b2d95e9-7ba8-415a-9141-da5523f96eab)
 ![image](https://github.com/user-attachments/assets/4a28e31f-1419-4e24-96e2-ef3e2b0a9428)
 
-After checking the logs and the EndPoint for Claire, I found no-suspicious activity.
+After checking the Email and the EndPoint(s), I found the following suspicious activity:
+
+IP Address	ASN	Provider	Country	Detection	Reason for Suspicion
+3.129.149.36	AS16509	AMAZON-02	US	1/94	Flagged as Malicious by Criminal IP.
+185.125.190.39	AS41231	Canonical Group Limited	GB	1/94	Flagged as Malicious by Criminal IP (Ubuntu-related).
+91.189.91.48	AS41231	Canonical Group Limited	US	1/94	Flagged as Malicious by Criminal IP (Ubuntu-related).
+52.15.107.13	AS16509	AMAZON-02	US	1/94	Flagged as Malicious by Criminal IP.
+54.247.62.1	AS16509	AMAZON-02	IE	1/94	Flagged as Malicious by Criminal IP.
+169.254.169.254	Private	Link-Local	-	0/94	Frequently used by AWS instances; abnormal on Windows.
+
+![image](https://github.com/user-attachments/assets/160af96f-1b37-4f44-9fb5-86c2b0f6e531)
+
+Based on the E-mail and the activity on the EndPoint, I concluded that "Phishing for Information" is the most likely.
+
+![image](https://github.com/user-attachments/assets/8711289f-20ac-478a-bde9-f1eaed8538bc)
+
+![image](https://github.com/user-attachments/assets/8a9212ad-d8ed-4b97-be4f-ad6b7e4d5e3f)
