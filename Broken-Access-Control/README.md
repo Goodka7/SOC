@@ -14,17 +14,22 @@ This is also done because the playbook in this particular setup cannot be closed
 ## Creating a Case
 Now that I have all the basic information copied down, I will create a case.
 
-<img src="https://github.com/user-attachments/assets/bd2f790a-99ca-47cc-bb35-3f197d99d6f9" width="300">
-
+<div align="center">
+<img src="https://github.com/user-attachments/assets/bd2f790a-99ca-47cc-bb35-3f197d99d6f9" width="300"><br>
 <img src="https://github.com/user-attachments/assets/3a96e674-bee7-4fa3-8c4d-1a9559bf5ac8" width="500">
+</div>
 
 This will take me to the **Incident Details** page, which provides some of the details from the first screen, but not as many. Here we can start the playbook.
 
+<div align="center">
 <img src="https://github.com/user-attachments/assets/2d0ab8d8-e81b-41dc-aa3b-516cebb80278" width="500">
+</div>
 
 I will open a new tab/screen at this point so that I can keep the playbook active.
 
+<div align="center">
 <img src="https://github.com/user-attachments/assets/06fa99e0-ce5d-402c-8f75-aa291ab543d2" width="500">
+</div>
 
 ## Analyzing the Rule
 Following the information in the playbook, we can start looking for artifacts. The playbook first suggests we look at the **rule name**, referring to why the alert was triggered:
@@ -54,7 +59,9 @@ I focus on the Source IP Address, as it seems to be from outside the network, an
 
 ## Endpoint Security Check
 
+<div align="center">
 <img src="https://github.com/user-attachments/assets/82b114eb-d1ae-4e6b-bafd-cd3ad182c222" width="500">
+</div>
 
 The next step of the playbook suggests some sources to collect data from. I navigate to the **Endpoint Security** tab and enter `43.130.1.222` to confirm if the device is in the network or not. No devices show up with that IP. I then enter the other IP, which seems to be an in-network device, and get a hit:
 
@@ -94,59 +101,91 @@ LetsDefend
 Nov, 08, 2023, 12:00 PM
 
 ## Examining HTTP Traffic
+
+<div align="center">
 <img src="https://github.com/user-attachments/assets/7c6e0d1b-d75e-48ba-a597-f9a7865e16d9" width="500">
+</div>
 
 Since I already collected this data earlier, I move on to the next step.
 
 ## Determining Malicious Activity
+
+<div align="center">
 <img src="https://github.com/user-attachments/assets/d9c174f4-625e-4272-8a5d-96325a7d9d61" width="500">
+</div>
 
 Based on the data collected, I assess whether the traffic from the external IP is malicious. Given that the payload reflects variables that were shown in the OSINT and that the IP itself had been flagged, I determined that the traffic was malicious. 
 
 ## Attack Type
+
+<div align="center">
 <img src="https://github.com/user-attachments/assets/4e94d1de-5da2-40f2-9276-00fef4701116" width="500">
+</div>
 
 The playbook asks me to identify the attack type: In this case I chose "Other".
 
 ## Planned or Not?
+
+<div align="center">
 <img src="https://github.com/user-attachments/assets/f44a4503-3fd6-4c14-911d-a09b0d4bdaf0" width="500">
+</div>
 
 The playbook asks us to check E-mail logs so that I can see if this was a planned test or not, after searching through the E-mail logs, I could not find any indication that it was planned.
 
+<div align="center">
 <img src="https://github.com/user-attachments/assets/4ab05c5a-4316-48dd-aca1-455215279c11" width="500">
+</div>
 
 ## Direction of Traffic
+
+<div align="center">
 <img src="https://github.com/user-attachments/assets/0a64e346-89dc-4fba-99a7-385e259250f3" width="500">
+</div>
 
 Following along with the playbook, it askes me to identify the direction that the network traffic was going. Based on the data: Internet > Company Network.
 
 ## Was the Attack Successful?
+
+<div align="center">
 <img src="https://github.com/user-attachments/assets/943951c7-14c0-4e17-95d9-9ddc1f1c0869" width="500">
+</div>
 
 The playbook wants me to make sure I verify if the attack was actually successful. Based on the Network activity data, the HTTP response code "200" in the logs indicates a successful execution of the attack, so I determine that the attack was indeed successful.
 
 ## Containment and Mitigation
 
+<div align="center">
 <img src="https://github.com/user-attachments/assets/2bb67ae5-44fc-4bd8-b61c-e4bc3679f97e" width="500">
 <img src="https://github.com/user-attachments/assets/c94221b4-017d-4a52-bf1e-e1fc732aedf1" width="500">
+</div>
 
 I proceed to contain the compromised endpoint by isolating the Confluence Data Center (v8.0.3). This step is necessary to prevent any further exploitation or lateral movement within the network.
 
 ## Reporting and Escalation
+
+<div align="center">
 <img src="https://github.com/user-attachments/assets/9c24d32d-24b9-4aa6-a2d0-74a4de6d276d" width="500">
+</div>
 
 Given the confirmed successful exploitation, I initiate a Tier 2 escalation as per the playbook guidelines. I document key artifacts and details gathered during the investigation and submit them as part of the escalation report.
 
+<div align="center">
 ![image](https://github.com/user-attachments/assets/3e7c76fe-ebb6-49f4-9e7c-8d69a70919bd)
+</div>
 
 ## Finalizing the Case
+
+<div align="center">
 <img src="https://github.com/user-attachments/assets/fb3bddbc-de17-49ae-b36b-82c999b3c8da" width="500">
 <img src="https://github.com/user-attachments/assets/c0aeb68a-242a-476c-a955-f955bdf8d7a5" width="300">
+</div>
 
 I complete the playbook and proceed to close the case. All investigation details and remediation steps are thoroughly documented to ensure accurate reporting and compliance with SOC protocols.
 
+<div align="center">
 <img src="https://github.com/user-attachments/assets/f302b86b-689b-4274-8b48-9e940cb08d98" width="500">
-
+</div>
+  
 ![image](https://github.com/user-attachments/assets/f0b9b8b2-a58b-4b93-be17-00337cd42575)
 
 ## Summary
