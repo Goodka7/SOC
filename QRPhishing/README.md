@@ -41,8 +41,9 @@ SMTP Address: 158.69.201.47
 I was able to locate one log that confirmed the information given in the alert.
 
 ![image](https://github.com/user-attachments/assets/42ace2e9-6e6a-4e5d-af97-36d496adcb6b)
-![image](https://github.com/user-attachments/assets/ffebd96b-fb54-43de-be61-9c7bb765e597)
-
+<div align="center">
+<img src="https://github.com/user-attachments/assets/ffebd96b-fb54-43de-be61-9c7bb765e597" width="500">
+</div>
 ---
 
 ## Phishing Indicators and IP Analysis
