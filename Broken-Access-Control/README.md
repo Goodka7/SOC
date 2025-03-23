@@ -48,14 +48,14 @@ The playbook also suggests looking at traffic between the two devices (Destinati
 
 
 I focus on the Source IP Address, as it seems to be from outside the network, and can see that it has been communicating with our Destination IP. After putting the relevant information in my notepad, I move on with the playbook.
+<div align="center">
 
 ![image](https://github.com/user-attachments/assets/b90ed80a-f8cf-486e-bb24-603046510ba5)
-
 ![image](https://github.com/user-attachments/assets/400305ed-0ec3-40f3-a71f-ee98d27cd4df)
-
 ![image](https://github.com/user-attachments/assets/d70edf4a-1864-4795-968f-b49dff8025da)
-
 ![image](https://github.com/user-attachments/assets/7e230dae-ab70-4bec-ad01-7fc253e5ffe7)
+
+</div>
 
 ## Endpoint Security Check
 
