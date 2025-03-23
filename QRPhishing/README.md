@@ -1,4 +1,4 @@
-# SOC Phishing Alert Investigation Walkthrough
+# QR Phishing Alert Investigation Walkthrough
 
 ## Introduction
 Today, I will be going over a phishing alert in the SOC environment. This walkthrough details how I investigated the alert, followed the playbook, and concluded the findings.
