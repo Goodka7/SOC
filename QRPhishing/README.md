@@ -26,7 +26,7 @@ This allowed me to access the playbook. I copied all the details from the Invest
 The playbook issued a warning to **verify the cause of the alert** before escalating to Tier 2 Support.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/57045edf-7328-49ca-b074-19ff43010b7c" width="500">
+<img src="https://github.com/user-attachments/assets/57045edf-7328-49ca-b074-19ff43010b7c" width="500"><br>
 <img src="https://github.com/user-attachments/assets/59a6d746-08ab-40c6-ac09-8cb2ec79bc50" width="500">
 </div>
 
