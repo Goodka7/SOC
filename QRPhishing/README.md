@@ -44,6 +44,7 @@ I was able to locate one log that confirmed the information given in the alert.
 <div align="center">
 <img src="https://github.com/user-attachments/assets/ffebd96b-fb54-43de-be61-9c7bb765e597" width="500">
 </div>
+
 ---
 
 ## Phishing Indicators and IP Analysis
