@@ -170,6 +170,7 @@ I proceed to contain the compromised endpoint by isolating the Confluence Data C
 Given the confirmed successful exploitation, I initiate a Tier 2 escalation as per the playbook guidelines. I document key artifacts and details gathered during the investigation and submit them as part of the escalation report.
 
 <div align="center">
+  
 ![image](https://github.com/user-attachments/assets/3e7c76fe-ebb6-49f4-9e7c-8d69a70919bd)
 </div>
 
