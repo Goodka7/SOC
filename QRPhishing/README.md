@@ -14,8 +14,9 @@ Today, I will be going over a phishing alert in the SOC environment. This walkth
 After accepting ownership for the alert, I moved to the **Investigation Channel** and created a case.
 
 ![image](https://github.com/user-attachments/assets/6687666e-c716-450a-9ed5-82342ff20bac)
+<div align="center">
 <img src="https://github.com/user-attachments/assets/e4a06d97-1e15-4e48-9da6-9b6c11ac6637" width="500" style="display: block; margin: auto;">
-
+</div>
 This allowed me to access the playbook. I copied all the details from the Investigation Channel into a **notepad** to aggregate the data I would find during analysis in one area.
 
 <img src="https://github.com/user-attachments/assets/6c5ecec0-dd5b-413a-b525-1df28aa59a4b" width="500">
