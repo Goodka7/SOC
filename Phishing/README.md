@@ -26,3 +26,9 @@ This log does not really give us any new information but does confirm the inform
 ![image](https://github.com/user-attachments/assets/ffebd96b-fb54-43de-be61-9c7bb765e597)
 
 ![image](https://github.com/user-attachments/assets/add32fa7-ead6-4f7f-b306-e2d96da3f531)
+
+The playbook directs me to make sure I look at these sources for suspicious data, one thing that sticks out is the domain name of the senders email: microsecmfa.com
+
+![image](https://github.com/user-attachments/assets/4a28e31f-1419-4e24-96e2-ef3e2b0a9428)
+
+After checking the logs and the EndPoint for Claire, I found no-suspicious activity.
