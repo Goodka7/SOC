@@ -82,7 +82,7 @@ The IP (`158.69.201.47`) was flagged as **malicious** by VirusTotal:
 Based on the email and endpoint activity, the most likely attack method was **"Phishing for Information"**. I concluded that the **attacker was external**, as indicated by the IP analysis.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/8711289f-20ac-478a-bde9-f1eaed8538bc" width="500">
+<img src="https://github.com/user-attachments/assets/8711289f-20ac-478a-bde9-f1eaed8538bc" width="500"><br>
 <img src="https://github.com/user-attachments/assets/9347e285-f5fb-4c56-95c3-ded0e47a6abe" width="500">
 </div>
 
