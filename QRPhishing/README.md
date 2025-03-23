@@ -56,6 +56,8 @@ The email showed typical phishing characteristics:
 The IP (`158.69.201.47`) was flagged as **malicious** by VirusTotal:
 - **Behaviors:** HTTP Bruteforce / HTTP Crawl / HTTP DoS + 3 more.
 
+### Investigating EndPoints and Email
+
 ![image](https://github.com/user-attachments/assets/69c8f71a-dc24-4644-829a-9495fe0f531c)
 ![image](https://github.com/user-attachments/assets/1b2d95e9-7ba8-415a-9141-da5523f96eab)
 ![image](https://github.com/user-attachments/assets/4a28e31f-1419-4e24-96e2-ef3e2b0a9428)
