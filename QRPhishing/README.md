@@ -99,8 +99,10 @@ Further investigation revealed no **internal IP involvement**, suggesting an **i
 ## Closing the Case
 After completing the analysis and documenting findings, I finished the playbook and closed the case.
 
-![image](https://github.com/user-attachments/assets/991b6db7-2732-430c-ab08-7577cfc18a10)
-![image](https://github.com/user-attachments/assets/c09a4837-9efc-4a91-9cdc-2e234d5b1c31)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/991b6db7-2732-430c-ab08-7577cfc18a10" width="500"><br>
+<img src="https://github.com/user-attachments/assets/c09a4837-9efc-4a91-9cdc-2e234d5b1c31" width=500">
+</div>
 
 ---
 
