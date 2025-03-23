@@ -4,7 +4,7 @@
 Today, I will be going over a phishing alert in the SOC environment. This walkthrough details how I investigated the alert, followed the playbook, and concluded the findings.
 
 ![image](https://github.com/user-attachments/assets/65a1632b-0a59-431c-8278-64f10a4f1671)
-<img src="https://github.com/user-attachments/assets/3e95e234-bc52-4435-841c-41f220d09c9d" width="500">
+<img src="https://github.com/user-attachments/assets/3e95e234-bc52-4435-841c-41f220d09c9d" width="500" style="display: block; margin: auto;">
 <img src="https://github.com/user-attachments/assets/ba03657b-e193-45b7-96f1-9f862d86323e" width="500" style="display: block; margin: auto;">
 
 
