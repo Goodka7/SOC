@@ -88,7 +88,10 @@ Based on the email and endpoint activity, the most likely attack method was **"P
 
 Further investigation revealed no **internal IP involvement**, suggesting an **isolated incident**. However, I found two additional endpoints with similar suspicious traffic dating as far back as **November 2023**, warranting a broader investigation.
 
-![image](https://github.com/user-attachments/assets/74a7c004-856c-4253-a74d-dbe02620f7e0)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/74a7c004-856c-4253-a74d-dbe02620f7e0" width="500">
+</div>
+
 ![image](https://github.com/user-attachments/assets/fac11219-7e7b-43ee-bd69-6a0d407ccb60)
 
 ---
