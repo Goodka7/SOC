@@ -155,7 +155,7 @@ The playbook wants me to make sure I verify if the attack was actually successfu
 ## Containment and Mitigation
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/2bb67ae5-44fc-4bd8-b61c-e4bc3679f97e" width="500">
+<img src="https://github.com/user-attachments/assets/2bb67ae5-44fc-4bd8-b61c-e4bc3679f97e" width="500"><br>
 <img src="https://github.com/user-attachments/assets/c94221b4-017d-4a52-bf1e-e1fc732aedf1" width="500">
 </div>
 
@@ -176,7 +176,7 @@ Given the confirmed successful exploitation, I initiate a Tier 2 escalation as p
 ## Finalizing the Case
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/fb3bddbc-de17-49ae-b36b-82c999b3c8da" width="500">
+<img src="https://github.com/user-attachments/assets/fb3bddbc-de17-49ae-b36b-82c999b3c8da" width="500"><br>
 <img src="https://github.com/user-attachments/assets/c0aeb68a-242a-476c-a955-f955bdf8d7a5" width="300">
 </div>
 
