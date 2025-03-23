@@ -70,9 +70,9 @@ The IP (`158.69.201.47`) was flagged as **malicious** by VirusTotal:
 | 91.189.91.48    | AS41231 | Canonical Group Limited | US     | 1/94     | Flagged as Malicious (Ubuntu-related).                      |
 | 52.15.107.13    | AS16509 | AMAZON-02               | US     | 1/94     | Flagged as Malicious by Criminal IP.                        |
 | 54.247.62.1     | AS16509 | AMAZON-02               | IE     | 1/94     | Flagged as Malicious by Criminal IP.                        |
-</div>
 
-![image](https://github.com/user-attachments/assets/160af96f-1b37-4f44-9fb5-86c2b0f6e531)
+<img src="https://github.com/user-attachments/assets/160af96f-1b37-4f44-9fb5-86c2b0f6e531" width="500">
+</div>
 
 ---
 
