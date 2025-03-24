@@ -26,6 +26,11 @@ There was only one endpoint that got a hit related to the destination IP (`104.2
 
 After checking some traffic logs, I noticed that there was some traffic related to the IP, but it wasn’t from the relevant event date (**Dec 12, 2023, 02:15 PM**). To dig deeper, I ran both IP addresses through **VirusTotal**.
 
+<div align="center">
+
+![image](https://github.com/user-attachments/assets/65212aef-deee-462b-a5d0-614538989712)
+</div>
+
 ## VirusTotal Results
 - **104.26.15.61 (CloudflareNet):** Clean, associated with **AS 13335 (CLOUDFLARENET)**.
 - **120.48.36.175 (Beijing Baidu Netcom):** Flagged as malicious by multiple vendors (e.g., BitDefender, G-Data), associated with phishing activities.
@@ -34,8 +39,6 @@ After checking some traffic logs, I noticed that there was some traffic related 
 It turns out that **104.26.15.61** is a **proxy server (Cloudflare)**, which masks the IP of the actual endpoint where the web server is hosted. Because of this setup, I couldn't directly quarantine the device, so I will need to report that when I escalate the case.
 
 <div align="center">
-  
-![image](https://github.com/user-attachments/assets/65212aef-deee-462b-a5d0-614538989712)
 ![image](https://github.com/user-attachments/assets/be9b8dd6-06e8-4edc-b22a-71f549f8ca47)
 </div>
 
