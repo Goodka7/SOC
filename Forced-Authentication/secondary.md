@@ -47,6 +47,7 @@ Checking network traffic logs revealed that the source IP (`120.48.36.175`) was 
 ![image](https://github.com/user-attachments/assets/4891af6e-fd18-46f5-973c-7ad41feb88ff)
 ![image](https://github.com/user-attachments/assets/0656ff9b-897b-4e85-b904-53a24e6f5208)
 </div>
+
 ## Case Closure
 At this point, I had gathered enough information to close and escalate the alert. I submitted my findings and the report, then marked the case as closed.
 
