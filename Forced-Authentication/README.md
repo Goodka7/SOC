@@ -33,6 +33,16 @@ After checking the network traffic via Log Management, I find that the IP 120.48
 Further inspection of the traffic shows a Brute Force attempt on port 80
 
 ![image](https://github.com/user-attachments/assets/4891af6e-fd18-46f5-973c-7ad41feb88ff)
+![image](https://github.com/user-attachments/assets/0656ff9b-897b-4e85-b904-53a24e6f5208)
 
+As we can see, they were successfully able to log in.
 
-Request URL: http://test-frontend.letsdefend.io/accounts/login
+Unfortunetly 104.26.15.61 seems to be a proxy server that is being used to mask the IP of the EndPoint that the WebServer is on, therefor I am unable to quarintine the device and so that will need to be taken care of after escalation, I will include this in my report.
+
+At this point we have enough information to close and escalate this alert.
+
+![image](https://github.com/user-attachments/assets/34f14b2b-da2c-48c5-9df3-e3e91ac568e4)
+![image](https://github.com/user-attachments/assets/a0e43229-2a31-4c7b-b902-1032b3997d95)
+![image](https://github.com/user-attachments/assets/daaa86f5-212d-43b5-9885-dbcf67f91f94)
+
+I submitted my findings and my report and closed the case.
