@@ -29,9 +29,14 @@ After checking some traffic logs, I noticed that there was some traffic related 
 ## VirusTotal Results
 - **104.26.15.61 (CloudflareNet):** Clean, associated with **AS 13335 (CLOUDFLARENET)**.
 - **120.48.36.175 (Beijing Baidu Netcom):** Flagged as malicious by multiple vendors (e.g., BitDefender, G-Data), associated with phishing activities.
-
+<div align="center>
+  
 ![image](https://github.com/user-attachments/assets/65212aef-deee-462b-a5d0-614538989712)
 ![image](https://github.com/user-attachments/assets/be9b8dd6-06e8-4edc-b22a-71f549f8ca47)
+</div>
+  
+## Proxy Server Complication
+It turns out that **104.26.15.61** is a **proxy server (Cloudflare)**, which masks the IP of the actual endpoint where the web server is hosted. Because of this setup, I couldn't directly quarantine the device, so I will need to report that when I escalate the case.
 
 ## Discovery of Malicious Activity
 Checking network traffic logs revealed that the source IP (`120.48.36.175`) was **enumerating ports** on the destination IP (`104.26.15.61`). Further analysis showed a **brute force attack on port 80**, and unfortunately, it was successful — the attacker managed to log in.
@@ -39,9 +44,6 @@ Checking network traffic logs revealed that the source IP (`120.48.36.175`) was 
 ![image](https://github.com/user-attachments/assets/3dc78112-0436-43a4-b25c-ae754117d2a4)
 ![image](https://github.com/user-attachments/assets/4891af6e-fd18-46f5-973c-7ad41feb88ff)
 ![image](https://github.com/user-attachments/assets/0656ff9b-897b-4e85-b904-53a24e6f5208)
-
-## Proxy Server Complication
-It turns out that **104.26.15.61** is a **proxy server (Cloudflare)**, which masks the IP of the actual endpoint where the web server is hosted. Because of this setup, I couldn't directly quarantine the device, so I will need to escalate the issue.
 
 ## Case Closure
 At this point, I had gathered enough information to close and escalate the alert. I submitted my findings and the report, then marked the case as closed.
