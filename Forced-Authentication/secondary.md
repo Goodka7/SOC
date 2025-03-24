@@ -6,15 +6,18 @@ In this project, I will walk through the analysis of a SOC alert, outlining typi
 The first step in the playbook is to find out more about the alert. This one says **"Forced Authentication Detected"**, which typically indicates brute force activity or repeated login attempts.
 
 ![image](https://github.com/user-attachments/assets/02058a76-8b7d-42ac-833d-24194a02fd63)
-![image](https://github.com/user-attachments/assets/85a15c88-c3c8-4a65-b8e4-7e515d791cc9)
-![image](https://github.com/user-attachments/assets/16cb5968-abb5-4f77-807a-f971bc3e1dbd)
-![image](https://github.com/user-attachments/assets/9b2caba5-468f-423a-8e5b-7ac757e42fee)
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/85a15c88-c3c8-4a65-b8e4-7e515d791cc9" width="500"><br>
+<img src="https://github.com/user-attachments/assets/16cb5968-abb5-4f77-807a-f971bc3e1dbd" width="500"><br>
+<img src="https://github.com/user-attachments/assets/9b2caba5-468f-423a-8e5b-7ac757e42fee" width="500">
+</div>
 
 The alert details give me some key information:
 - **Source IP:** 120.48.36.175
 - **Destination IP:** 104.26.15.61
 
-Next, I move to the **Endpoint Security** tab to investigate the endpoint(s) that triggered the alert.
+I move to the **Endpoint Security** tab to investigate the endpoint(s) that triggered the alert.
 
 ## Endpoint Analysis
 There was only one endpoint that got a hit related to the destination IP (`104.26.15.61`). However, the endpoint itself didn't actually have that IP assigned, which means I had to dig deeper to understand why it showed up.
