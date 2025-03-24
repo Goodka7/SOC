@@ -23,3 +23,10 @@ We can see some traffic on this EndPoint related to the IP address, but this is 
 I decide to run this IP through VirusTotal to see if it gets any hits. AS 13335 ( CLOUDFLARENET ) uses this IP and it's shown as clean.
 I then decide to run the other IP (120.48.36.175) through VirusTotal to see what I can see: 120.48.36.175 (120.48.0.0/16) AS 38365 ( Beijing Baidu Netcom Science and Technology Co., Ltd. ) This is very concerning since our Enterprise is not based in China, futhermore some big name vendors have flagged it for malicious activity: BitDefender: Phishing, G-Data: Phishing, alphaMountain.ai: Suspicious
 
+![image](https://github.com/user-attachments/assets/be9b8dd6-06e8-4edc-b22a-71f549f8ca47)
+
+After checking the network traffic via Log Management, I find that the IP 120.48.36.175 is enumrating ports on 104.26.15.61.
+
+
+![image](https://github.com/user-attachments/assets/3dc78112-0436-43a4-b25c-ae754117d2a4)
+
