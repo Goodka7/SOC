@@ -21,5 +21,5 @@ As the image above shows, this EndPoint does not have the IP in question assigne
 
 We can see some traffic on this EndPoint related to the IP address, but this is not related to our event based on the date of our event: Dec, 12, 2023, 02:15 PM
 I decide to run this IP through VirusTotal to see if it gets any hits. AS 13335 ( CLOUDFLARENET ) uses this IP and it's shown as clean.
-I then decide to run the other IP () through VirusTotal to see what I can see: 120.48.36.175 (120.48.0.0/16) AS 38365 ( Beijing Baidu Netcom Science and Technology Co., Ltd. ) This is very concerning since our Enterprise is not based in China, futhermore some big name vendors have flagged it for malicious activity: BitDefender: Phishing, G-Data: Phishing, alphaMountain.ai: Suspicious
+I then decide to run the other IP (120.48.36.175) through VirusTotal to see what I can see: 120.48.36.175 (120.48.0.0/16) AS 38365 ( Beijing Baidu Netcom Science and Technology Co., Ltd. ) This is very concerning since our Enterprise is not based in China, futhermore some big name vendors have flagged it for malicious activity: BitDefender: Phishing, G-Data: Phishing, alphaMountain.ai: Suspicious
 
