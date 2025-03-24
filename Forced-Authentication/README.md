@@ -32,6 +32,7 @@ After checking the network traffic via Log Management, I find that the IP 120.48
 
 Further inspection of the traffic shows a Brute Force attempt on port 80
 
-![image](https://github.com/user-attachments/assets/f57cc8cb-1ab3-4136-94d5-23ebc472229e)
+![image](https://github.com/user-attachments/assets/4891af6e-fd18-46f5-973c-7ad41feb88ff)
+
 
 Request URL: http://test-frontend.letsdefend.io/accounts/login
