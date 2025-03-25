@@ -32,7 +32,9 @@ The alert categorizes this event as **LOLBin** (Living Off the Land Binary). A L
 ### Step 1: Identify the EndPoint
 Navigate to the **Endpoint Security** tab and use the data stored in Notepad to identify the endpoint(s) involved. In this case, the hostname **Henry** is associated with the alert, so I locate the endpoint using this criterion.
 
-![image](https://github.com/user-attachments/assets/eda44ee3-8ee6-4232-b218-b7c576532844)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/eda44ee3-8ee6-4232-b218-b7c576532844" width="500">
+</div>
 
 The endpoint details reveal useful information:
 - **Operating System:** Windows 10
