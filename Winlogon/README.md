@@ -10,9 +10,11 @@ As always, accept ownership of the alert.
 
 Select **Create Case** to gain access to the playbook, which helps maintain direction during analysis. I always copy the main details from this screen to **Notepad** to keep all collected data organized in one place.
 
-![image](https://github.com/user-attachments/assets/e65757f6-4115-4bc6-a22e-6a42e2294940)
-![image](https://github.com/user-attachments/assets/fa2d1098-8bb8-4474-8fc1-bdb5c00e90fb)
-![image](https://github.com/user-attachments/assets/3d2193b5-aeaf-446a-8e10-2f1f9e59436a)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/e65757f6-4115-4bc6-a22e-6a42e2294940" width="500"><br>
+<img src="https://github.com/user-attachments/assets/fa2d1098-8bb8-4474-8fc1-bdb5c00e90fb" width="500"><br>
+<img src="https://github.com/user-attachments/assets/3d2193b5-aeaf-446a-8e10-2f1f9e59436a" width="500">
+</div>
 
 ### Playbook Considerations
 To keep the walkthrough concise and resource-efficient, I will not screenshot every playbook screen. For a detailed playbook breakdown, refer to my other walkthroughs like **Broken-Access-Controls** or **QR Phishing**, as they cover most of the prompts used in this environment.
