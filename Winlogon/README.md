@@ -3,13 +3,15 @@
 In this project, I will walk through the analysis of a SOC alert, outlining typical steps I take to analyze and close alerts. The goal is to keep it straightforward and easy to understand, even for non-technical readers.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/fbf81965-b913-4d4a-9f0a-facd83b7ec56" width="500"><br>
+<img src="https://github.com/user-attachments/assets/fbf81965-b913-4d4a-9f0a-facd83b7ec56" width="900"><br>
 
 </div>
 As always, accept ownership of the alert.
 
 ## Initial Alert
-![image](https://github.com/user-attachments/assets/f8eb9457-1713-49fd-8d67-15d750e7f276)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/f8eb9457-1713-49fd-8d67-15d750e7f276" width="500">
+</div>
 
 Select **Create Case** to gain access to the playbook, which helps maintain direction during analysis. I always copy the main details from this screen to **Notepad** to keep all collected data organized in one place.
 
