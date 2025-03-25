@@ -66,6 +66,8 @@ After documenting the findings and submitting necessary artifacts, I quarantine 
 - **Exploit Used:** Utilman.exe LOLBin
 - **Successful Compromise:** SYSTEM privileges gained
 - **Unclear Initial Access:** Requires further analysis by Tier 2
+![image](https://github.com/user-attachments/assets/85999d3a-4c2f-4182-b2be-db273372420b)
+![image](https://github.com/user-attachments/assets/2b08cae7-9f29-4188-b180-21cb7e1058b5)
 
 ## Final Thoughts
 Utilman.exe is a powerful LOLBin often exploited to escalate privileges. Proactively monitoring file integrity and employing **Least Privilege principles** can mitigate such risks. Early detection and rapid response are crucial to minimizing damage from such attacks.
