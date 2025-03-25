@@ -61,7 +61,8 @@ C:\Windows\system32\cmd.exe /c "C:\Users\superman\AppData\Roaming\Microsoft\Wind
 This confirms the exploit succeeded. However, the initial compromise vector remains unknown with the available resources. I make a note of this for **Tier 2 analysis**.
 
 ## Case Closure
-After documenting the findings and submitting necessary artifacts, I escalate the alert for further investigation and close the case. The detailed report outlines:
+![image](https://github.com/user-attachments/assets/6dac9fbc-4c47-4172-9b99-517148f7700c)
+After documenting the findings and submitting necessary artifacts, I quarantine the EndPoint, then escalate the alert for further investigation and close the case. The detailed report outlines:
 - **Exploit Used:** Utilman.exe LOLBin
 - **Successful Compromise:** SYSTEM privileges gained
 - **Unclear Initial Access:** Requires further analysis by Tier 2
