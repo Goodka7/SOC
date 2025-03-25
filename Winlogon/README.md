@@ -1,4 +1,4 @@
-# Winlogon Exploit Attempt Walkthrough
+# Winlogon Exploit Walkthrough
 
 In this project, I will walk through the analysis of a SOC alert, outlining typical steps I take to analyze and close alerts. The goal is to keep it straightforward and easy to understand, even for non-technical readers.
 
