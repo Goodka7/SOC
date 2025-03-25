@@ -2,7 +2,10 @@
 
 In this project, I will walk through the analysis of a SOC alert, outlining typical steps I take to analyze and close alerts. The goal is to keep it straightforward and easy to understand, even for non-technical readers.
 
-![image](https://github.com/user-attachments/assets/fbf81965-b913-4d4a-9f0a-facd83b7ec56)<br>
+<div align="center">
+<img src="https://github.com/user-attachments/assets/fbf81965-b913-4d4a-9f0a-facd83b7ec56" width="500"><br>
+
+</div>
 As always, accept ownership of the alert.
 
 ## Initial Alert
