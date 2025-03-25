@@ -42,7 +42,7 @@ The endpoint details reveal useful information:
 - **Last Login:** June 21, 2023, 12:24 PM (shortly after the alert was triggered)
 
 ### Step 2: Investigate Command History
-The command line history on the endpoint shows the following suspicious command:
+The command line history on the endpoint shows a number of suspicious commands including the following:
 ```
 2023-06-21 10:07:12.580 copy cmd.exe utilman.exe
 ```
@@ -59,8 +59,10 @@ This indicates the **Utilman.exe LOLBin exploit** was used. Attackers often repl
 ## Step 3: Review Process History
 To gain further context, I examine the **process history** on the compromised endpoint.
 
-![image](https://github.com/user-attachments/assets/e9fcd2b5-959f-4c34-aba2-76492d688734)
-![image](https://github.com/user-attachments/assets/0e28f32f-3a7d-4126-bb78-0f612762f177)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/e9fcd2b5-959f-4c34-aba2-76492d688734" width="500"><br>
+<img src="https://github.com/user-attachments/assets/0e28f32f-3a7d-4126-bb78-0f612762f177" width="500">
+</div>
 
 Here, I observe the attacker successfully logging in as the newly created admin user and executing commands like:
 ```
