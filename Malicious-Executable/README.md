@@ -68,7 +68,7 @@ The process history shows the following execution command:
 Based on the evidence gathered, the malware was successfully installed and connected to a C2 server without being automatically quarantined. The endpoint was contained (quarantined), and the case was escalated to Tier 2 as the malware remains present.
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/337895e3-3350-4746-9c2d-025b117cb653" width="500">
+<img src="https://github.com/user-attachments/assets/337895e3-3350-4746-9c2d-025b117cb653" width="500"><br>
 <img src="https://github.com/user-attachments/assets/3c0555a3-0237-4a8b-a1b8-48835c78a367" width="500">
 </div>
 
