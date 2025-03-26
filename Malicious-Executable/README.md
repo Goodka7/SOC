@@ -30,8 +30,10 @@ Next, I navigate to the Network Traffic Logs in the "Log Management" tab to inve
 
 Notable traffic includes the following URLs flagged as malicious by VirusTotal:
 
-![image](https://github.com/user-attachments/assets/dbb354b8-a9db-4d7c-8fe7-7adb6ee3f95a)
-![image](https://github.com/user-attachments/assets/5c7817a9-3566-4648-84a1-205d31d57660)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/dbb354b8-a9db-4d7c-8fe7-7adb6ee3f95a" width="500"><br>
+<img src="https://github.com/user-attachments/assets/5c7817a9-3566-4648-84a1-205d31d57660" width="500">
+</div>
 
 The URLs were flagged by:
 - **Forcepoint ThreatSeeker:** Information Technology
