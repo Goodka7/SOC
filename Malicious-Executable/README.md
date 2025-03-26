@@ -118,7 +118,7 @@ Since the network logs did not yield further critical insights, I pivot to the *
 
 ## Endpoint Analysis
 I check the browser history and observe the installation of the Chrome extension:
-
+![image](https://github.com/user-attachments/assets/1faf780f-cad4-4212-96cb-21e7865f85c0)
 ![image](https://github.com/user-attachments/assets/b0232f46-720a-4b9d-aa64-892289338b82)
 
 The network traffic on the endpoint also confirms communication with both malicious IP addresses, indicating potential C2 communication.
