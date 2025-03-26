@@ -42,7 +42,9 @@ The URLs were flagged by:
 
 Since the network logs did not yield further critical insights, I pivot to the **Endpoint Security** tab to inspect the endpoint "Samuel" (IP: `172.16.17.173`).
 
-![image](https://github.com/user-attachments/assets/48cf2646-3c2a-479b-885c-1bcbdce50a83)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/48cf2646-3c2a-479b-885c-1bcbdce50a83" width="600">
+</div>
 
 ## Endpoint Analysis
 ![image](https://github.com/user-attachments/assets/1faf780f-cad4-4212-96cb-21e7865f85c0)
