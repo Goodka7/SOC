@@ -1,6 +1,6 @@
 # Winlogon Exploit Walkthrough
 
-In this project, I will walk through the analysis of a SOC alert, outlining typical steps I take to analyze and close alerts. The goal is to keep it straightforward and easy to understand, even for non-technical readers.
+In this project, I will walk through the analysis of a SOC alert, outlining typical steps I take to analyze and close alerts. The goal is to keep it straightforward and easy to understand, even for non-technical readers. For details on the SOC enviroment, please check out the [SOC Overview](https://github.com/Goodka7/SOC/blob/main/README.md)
 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/fbf81965-b913-4d4a-9f0a-facd83b7ec56" width="900"><br>
@@ -22,7 +22,7 @@ Select **Create Case** to gain access to the playbook, which helps maintain dire
 </div>
 
 ### Playbook Considerations
-To keep the walkthrough concise and resource-efficient, I will not screenshot every playbook screen. For a detailed playbook breakdown, refer to my other walkthroughs like **Broken-Access-Controls** or **QR Phishing**, as they cover most of the prompts used in this environment.
+To keep the walkthrough concise and resource-efficient, I will not screenshot every playbook screen. For a detailed playbook breakdown, refer to my other walkthroughs like [Broken-Access-Controls](https://github.com/Goodka7/SOC/blob/main/Broken-Access-Control/README.md) or [QR Phishing](https://github.com/Goodka7/SOC/blob/main/QRPhishing/README.md), as they cover most of the prompts used in this environment.
 
 ## LOLBin Analysis
 The alert categorizes this event as **LOLBin** (Living Off the Land Binary). A LOLBin is any binary supplied by the operating system that is normally used for legitimate purposes but can also be abused by malicious actors. Some default system binaries may have unexpected side effects, allowing attackers to hide post-exploitation activities.
