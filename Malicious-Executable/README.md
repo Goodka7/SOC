@@ -84,7 +84,7 @@ After accepting ownership, I move to the Investigations Channel to copy the aler
 
 ![image](https://github.com/user-attachments/assets/a05ea02e-a376-42e7-bf91-2e7c75e8a8a7)
 
-After clicking "create case," I open the playbook and begin analyzing the gathered information.
+After clicking "create case," I open the playbook and begin analyzing the gathered information which I have copied to my notepad, as always.
 
 ## OSINT Analysis
 Since we already have a file hash and file name, I use OSINT to understand what we may be dealing with. VirusTotal returned negative community scores for the hash. After further research, I identified the following characteristics:
