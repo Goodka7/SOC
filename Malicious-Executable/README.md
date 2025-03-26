@@ -50,7 +50,9 @@ Since the network logs did not yield further critical insights, I pivot to the *
 ![image](https://github.com/user-attachments/assets/1faf780f-cad4-4212-96cb-21e7865f85c0)
 I check the browser history and observe the installation of the Chrome extension:
 
-![image](https://github.com/user-attachments/assets/b0232f46-720a-4b9d-aa64-892289338b82)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/b0232f46-720a-4b9d-aa64-892289338b82" width="500">
+</div>
 
 The network traffic on the endpoint also confirms communication with both malicious IP addresses, indicating potential C2 communication.
 
@@ -65,7 +67,9 @@ The process history shows the following execution command:
 ## Conclusion
 Based on the evidence gathered, the malware was successfully installed and connected to a C2 server without being automatically quarantined. The endpoint was contained (quarantined), and the case was escalated to Tier 2 as the malware remains present.
 
-![image](https://github.com/user-attachments/assets/337895e3-3350-4746-9c2d-025b117cb653)
-![image](https://github.com/user-attachments/assets/3c0555a3-0237-4a8b-a1b8-48835c78a367)
+<div align="center">
+<img src="https://github.com/user-attachments/assets/337895e3-3350-4746-9c2d-025b117cb653" width="500">
+<img src="https://github.com/user-attachments/assets/3c0555a3-0237-4a8b-a1b8-48835c78a367" width="500">
+</div>
 
 
