@@ -1,1 +1,3 @@
-FakeGPT Malicious Chrome Extension
+# Malicious Chrome Extension
+
+In this project, I will walk through the analysis of a SOC Alert, outlining typical steps I take to analyze and close alerts. To keep the walkthrough concise and resource-efficient, I will not screenshot every playbook screen nor going over menu options. For a detailed playbook breakdown, refer to my other walkthroughs like [Broken-Access-Controls](https://github.com/Goodka7/SOC/blob/main/Broken-Access-Control/README.md) or [QR Phishing](https://github.com/Goodka7/SOC/blob/main/QRPhishing/README.md), as they cover most of the prompts used in this environment, you may also go to the [SOC overview](https://github.com/Goodka7/SOC/blob/main/README.md) if you would like a more detailed understanding of the environment I am working with.
