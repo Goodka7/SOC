@@ -7,3 +7,20 @@ The first step is to accept ownership of the alert:
 <div align="center">
 <img src="https://github.com/user-attachments/assets/34d4d103-0994-4f93-836e-b099f99eb406" width="500">
 </div>
+
+After accepting ownership, I move to the Investigations Channel to copy the alert details into my notepad. This helps me quickly review collected data while navigating different screens.
+
+![image](https://github.com/user-attachments/assets/69feafb2-0a71-4584-a402-370e297c2c5d)
+
+After clicking "create case," I open the playbook and begin analyzing the gathered information which I have copied to my notepad, as always.
+
+## Network Traffic Analysis
+Next, I navigate to the Network Traffic Logs in the "Log Management" tab to investigate `172.16.17.72`.
+
+Notable traffic included the following images:
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/4152b1cc-0dba-4857-b7ed-a904957cc78f" width="500">
+<img src="https://github.com/user-attachments/assets/9b0aa217-3a51-4776-86ca-f604effbd179" width="500">
+<img src="https://github.com/user-attachments/assets/326c975d-3338-4d77-9359-ebe9b79b5861" width="500">
+</div>
