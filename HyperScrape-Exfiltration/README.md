@@ -4,4 +4,6 @@ In this project, I will walk through the analysis of a SOC Alert, outlining typi
 
 ## Initial Alert
 The first step is to accept ownership of the alert:
-
+<div align="center">
+<img src="https://github.com/user-attachments/assets/34d4d103-0994-4f93-836e-b099f99eb406" width="500">
+</div>
