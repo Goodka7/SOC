@@ -20,7 +20,7 @@ Next, I navigate to the Network Traffic Logs in the "Log Management" tab to inve
 Notable traffic included the following images:
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/4152b1cc-0dba-4857-b7ed-a904957cc78f" width="500">
-<img src="https://github.com/user-attachments/assets/9b0aa217-3a51-4776-86ca-f604effbd179" width="500">
+<img src="https://github.com/user-attachments/assets/4152b1cc-0dba-4857-b7ed-a904957cc78f" width="500"><br>
+<img src="https://github.com/user-attachments/assets/9b0aa217-3a51-4776-86ca-f604effbd179" width="500"><br>
 <img src="https://github.com/user-attachments/assets/326c975d-3338-4d77-9359-ebe9b79b5861" width="500">
 </div>
