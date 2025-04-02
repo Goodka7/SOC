@@ -35,7 +35,7 @@ Running the name of the zip file through threat intelligence we get this:
 At this point I believe it's safe to assume this is a true-positive and malicious event, I go ahead and first delete the relevant e-mail from the users inbox: 
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/b13c0e8f-6de4-4a49-b0ee-1f79ada1ca11" width="500">
+<img src="https://github.com/user-attachments/assets/b13c0e8f-6de4-4a49-b0ee-1f79ada1ca11" width="300">
 </div>
 
 
