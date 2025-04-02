@@ -42,6 +42,6 @@ At this point I believe it's safe to assume this is a true-positive and maliciou
 I then check the Network Traffic for the SMTP (`63.35.133.186`) traffic relating to this so we can get the IP for the EndPoint that could be infected:
 ![image](https://github.com/user-attachments/assets/ea5f4057-5803-4cbe-bb93-93ed7c519fa3)
 
-Here I see once connection the date related to the SMTP server, but it does not point to `mark@letsdefend.io`, showing that he never opened the file.
+Here I see one connection the date related to the SMTP server, but it does not point to `mark@letsdefend.io`, showing that he never opened the file.
 
 At this point I am free to close the case and write my report.
