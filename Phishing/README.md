@@ -24,7 +24,7 @@ I have found the email:
 Several pieces of data stick out about this: 
 - First the sender URL is from a suspicious top level domain, especially when considering this is supposed to be related to UPS Express.
 - Second the email is very poorly structured, it is all on one line and does not have a "sign off" by the individual sending, which makes it seem very unprofessional.
-- Next the attachment is untitled but when hovering over the attachment we see the name of the file is: 21b3a9b03027779dc3070481a468b211.zip. This sort of attachment doesn't fall in line with the context of the e-mail.
+- Next the attachment is untitled but when hovering over the attachment we see the name of the file is: 21b3a9b03027779dc3070481a468b211.zip. This sort of attachment doesn't fall in line with the context of the email.
 
 Running the name of the zip file through threat intelligence we get this:
 
