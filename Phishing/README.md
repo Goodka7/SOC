@@ -45,3 +45,9 @@ I then check the Network Traffic for the SMTP (`63.35.133.186`) traffic relating
 Here I see one connection the date related to the SMTP server, but it does not point to `mark@letsdefend.io`, showing that he never opened the file.
 
 At this point I am free to close the case and write my report.
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/4e39ef57-bfaf-4d99-926b-bbed509ab45c" width="500"><br>
+<img src="https://github.com/user-attachments/assets/ea8b98d2-c88c-4b68-a37a-02d9c7015ee9" width="500">
+</div>
+
