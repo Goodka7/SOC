@@ -33,7 +33,11 @@ Running the name of the zip file through threat intelligence we get this:
 `any.run` shows it as a known malicious file related to the `Emotet trojan`.
 
 At this point I believe it's safe to assume this is a true-positive and malicious event, I go ahead and first delete the relevant e-mail from the users inbox: 
-![image](https://github.com/user-attachments/assets/b13c0e8f-6de4-4a49-b0ee-1f79ada1ca11)
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/b13c0e8f-6de4-4a49-b0ee-1f79ada1ca11" width="500">
+</div>
+
 
 I then check the Network Traffic for the SMTP (`63.35.133.186`) traffic relating to this so we can get the IP for the EndPoint that could be infected:
 ![image](https://github.com/user-attachments/assets/ea5f4057-5803-4cbe-bb93-93ed7c519fa3)
