@@ -8,4 +8,8 @@ The first step is to accept ownership of the alert:
 <img src="https://github.com/user-attachments/assets/36f59bcb-5acc-46dc-b225-134577db6aa5" width="300">
 </div>
 
+After accepting ownership, I move to the Investigations Channel to copy the alert details into my notepad. This helps me quickly review collected data while navigating different screens.
+<div align="center">
+<img src="https://github.com/user-attachments/assets/6a7bc585-b4f0-4f82-bbcf-27c9c648ff70" width="300">
+</div>
 
